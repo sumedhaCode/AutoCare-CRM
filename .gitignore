@@ -1,0 +1,73 @@
+# ==============================
+# React / Node
+# ==============================
+
+node_modules/
+build/
+dist/
+coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ==============================
+# Spring Boot / Maven
+# ==============================
+
+target/
+*.class
+
+# Maven generated files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+
+# ==============================
+# Eclipse
+# ==============================
+
+.classpath
+.project
+.settings/
+
+
+# ==============================
+# Spring Boot Secrets
+# ==============================
+
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# Allow the safe example configuration
+!application-example.properties
+
+
+# ==============================
+# OS files
+# ==============================
+
+.DS_Store
+Thumbs.db
+*.docx
+
+
+# ==============================
+# IDE
+# ==============================
+
+.vscode/
+.idea/
+*.iml
